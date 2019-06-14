@@ -51,7 +51,10 @@ struct NavigationBarView: View {
 #if DEBUG
 struct NavigationBarView_Previews : PreviewProvider {
     static var previews: some View {
-        NavigationBarView()
+        Rectangle() // Background
+            .edgesIgnoringSafeArea(.all)
+            .foregroundColor(.black)
+            .overlay(NavigationBarView())
     }
 }
 #endif
