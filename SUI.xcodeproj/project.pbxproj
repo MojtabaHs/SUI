@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A5CF7ED22B42B6200A31028 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CF7EC22B42B6200A31028 /* Style.swift */; };
+		2A5CF7EF22B42B7F00A31028 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CF7EE22B42B7F00A31028 /* Service.swift */; };
+		2A7A406722B42DC80052779A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7A406122B42DC80052779A /* MapView.swift */; };
+		2A7A406822B42DC80052779A /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7A406222B42DC80052779A /* ServicesView.swift */; };
+		2A7A406922B42DC80052779A /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7A406322B42DC80052779A /* NavigationBarView.swift */; };
+		2A7A406A22B42DC80052779A /* RequestButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7A406422B42DC80052779A /* RequestButtonView.swift */; };
+		2A7A406B22B42DC80052779A /* ServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7A406522B42DC80052779A /* ServiceView.swift */; };
+		2A7A406C22B42DC80052779A /* PriceOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7A406622B42DC80052779A /* PriceOptionsView.swift */; };
 		2AA92BD322B1AF6600C7AA32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA92BD222B1AF6600C7AA32 /* AppDelegate.swift */; };
 		2AA92BD522B1AF6600C7AA32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA92BD422B1AF6600C7AA32 /* SceneDelegate.swift */; };
 		2AA92BD722B1AF6600C7AA32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA92BD622B1AF6600C7AA32 /* ContentView.swift */; };
 		2AA92BD922B1AF6900C7AA32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA92BD822B1AF6900C7AA32 /* Assets.xcassets */; };
 		2AA92BDC22B1AF6900C7AA32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA92BDB22B1AF6900C7AA32 /* Preview Assets.xcassets */; };
 		2AA92BDF22B1AF6900C7AA32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AA92BDD22B1AF6900C7AA32 /* LaunchScreen.storyboard */; };
+		2AA92BEE22B24B3300C7AA32 /* IRANSans_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AA92BE822B24B3300C7AA32 /* IRANSans_Bold.ttf */; };
+		2AA92BEF22B24B3300C7AA32 /* IRANSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AA92BE922B24B3300C7AA32 /* IRANSans.ttf */; };
+		2AA92BF022B24B3300C7AA32 /* IRANSans_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AA92BEA22B24B3300C7AA32 /* IRANSans_Light.ttf */; };
+		2AA92BF122B24B3300C7AA32 /* IRANSans_Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AA92BEB22B24B3300C7AA32 /* IRANSans_Black.ttf */; };
+		2AA92BF222B24B3300C7AA32 /* IRANSans_Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AA92BEC22B24B3300C7AA32 /* IRANSans_Medium.ttf */; };
+		2AA92BF322B24B3300C7AA32 /* IRANSans_UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AA92BED22B24B3300C7AA32 /* IRANSans_UltraLight.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A5CF7EC22B42B6200A31028 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		2A5CF7EE22B42B7F00A31028 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		2A7A406122B42DC80052779A /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		2A7A406222B42DC80052779A /* ServicesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
+		2A7A406322B42DC80052779A /* NavigationBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		2A7A406422B42DC80052779A /* RequestButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestButtonView.swift; sourceTree = "<group>"; };
+		2A7A406522B42DC80052779A /* ServiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceView.swift; sourceTree = "<group>"; };
+		2A7A406622B42DC80052779A /* PriceOptionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceOptionsView.swift; sourceTree = "<group>"; };
 		2AA92BCF22B1AF6600C7AA32 /* SUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA92BD222B1AF6600C7AA32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AA92BD422B1AF6600C7AA32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +46,12 @@
 		2AA92BDB22B1AF6900C7AA32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2AA92BDE22B1AF6900C7AA32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AA92BE022B1AF6900C7AA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AA92BE822B24B3300C7AA32 /* IRANSans_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSans_Bold.ttf; sourceTree = "<group>"; };
+		2AA92BE922B24B3300C7AA32 /* IRANSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSans.ttf; sourceTree = "<group>"; };
+		2AA92BEA22B24B3300C7AA32 /* IRANSans_Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSans_Light.ttf; sourceTree = "<group>"; };
+		2AA92BEB22B24B3300C7AA32 /* IRANSans_Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSans_Black.ttf; sourceTree = "<group>"; };
+		2AA92BEC22B24B3300C7AA32 /* IRANSans_Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSans_Medium.ttf; sourceTree = "<group>"; };
+		2AA92BED22B24B3300C7AA32 /* IRANSans_UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSans_UltraLight.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +65,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A5CF7FA22B42CAC00A31028 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A7A406122B42DC80052779A /* MapView.swift */,
+				2A7A406322B42DC80052779A /* NavigationBarView.swift */,
+				2A7A406622B42DC80052779A /* PriceOptionsView.swift */,
+				2A7A406422B42DC80052779A /* RequestButtonView.swift */,
+				2A7A406222B42DC80052779A /* ServicesView.swift */,
+				2A7A406522B42DC80052779A /* ServiceView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		2AA92BC622B1AF6600C7AA32 = {
 			isa = PBXGroup;
 			children = (
@@ -59,9 +100,13 @@
 				2AA92BD222B1AF6600C7AA32 /* AppDelegate.swift */,
 				2AA92BD422B1AF6600C7AA32 /* SceneDelegate.swift */,
 				2AA92BD622B1AF6600C7AA32 /* ContentView.swift */,
+				2A5CF7EC22B42B6200A31028 /* Style.swift */,
+				2A5CF7EE22B42B7F00A31028 /* Service.swift */,
+				2A5CF7FA22B42CAC00A31028 /* View */,
 				2AA92BD822B1AF6900C7AA32 /* Assets.xcassets */,
 				2AA92BDD22B1AF6900C7AA32 /* LaunchScreen.storyboard */,
 				2AA92BE022B1AF6900C7AA32 /* Info.plist */,
+				2AA92BE622B24B3300C7AA32 /* Fonts */,
 				2AA92BDA22B1AF6900C7AA32 /* Preview Content */,
 			);
 			path = SUI;
@@ -73,6 +118,27 @@
 				2AA92BDB22B1AF6900C7AA32 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2AA92BE622B24B3300C7AA32 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2AA92BE722B24B3300C7AA32 /* IRANSans */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2AA92BE722B24B3300C7AA32 /* IRANSans */ = {
+			isa = PBXGroup;
+			children = (
+				2AA92BE822B24B3300C7AA32 /* IRANSans_Bold.ttf */,
+				2AA92BE922B24B3300C7AA32 /* IRANSans.ttf */,
+				2AA92BEA22B24B3300C7AA32 /* IRANSans_Light.ttf */,
+				2AA92BEB22B24B3300C7AA32 /* IRANSans_Black.ttf */,
+				2AA92BEC22B24B3300C7AA32 /* IRANSans_Medium.ttf */,
+				2AA92BED22B24B3300C7AA32 /* IRANSans_UltraLight.ttf */,
+			);
+			path = IRANSans;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +199,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AA92BF322B24B3300C7AA32 /* IRANSans_UltraLight.ttf in Resources */,
+				2AA92BEE22B24B3300C7AA32 /* IRANSans_Bold.ttf in Resources */,
+				2AA92BEF22B24B3300C7AA32 /* IRANSans.ttf in Resources */,
 				2AA92BDF22B1AF6900C7AA32 /* LaunchScreen.storyboard in Resources */,
 				2AA92BDC22B1AF6900C7AA32 /* Preview Assets.xcassets in Resources */,
+				2AA92BF022B24B3300C7AA32 /* IRANSans_Light.ttf in Resources */,
 				2AA92BD922B1AF6900C7AA32 /* Assets.xcassets in Resources */,
+				2AA92BF222B24B3300C7AA32 /* IRANSans_Medium.ttf in Resources */,
+				2AA92BF122B24B3300C7AA32 /* IRANSans_Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +218,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A7A406B22B42DC80052779A /* ServiceView.swift in Sources */,
+				2A7A406C22B42DC80052779A /* PriceOptionsView.swift in Sources */,
 				2AA92BD322B1AF6600C7AA32 /* AppDelegate.swift in Sources */,
+				2A7A406722B42DC80052779A /* MapView.swift in Sources */,
+				2A7A406A22B42DC80052779A /* RequestButtonView.swift in Sources */,
+				2A7A406922B42DC80052779A /* NavigationBarView.swift in Sources */,
 				2AA92BD522B1AF6600C7AA32 /* SceneDelegate.swift in Sources */,
 				2AA92BD722B1AF6600C7AA32 /* ContentView.swift in Sources */,
+				2A5CF7ED22B42B6200A31028 /* Style.swift in Sources */,
+				2A5CF7EF22B42B7F00A31028 /* Service.swift in Sources */,
+				2A7A406822B42DC80052779A /* ServicesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

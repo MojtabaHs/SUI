@@ -41,6 +41,15 @@
 	</dict>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>IRANSans_Medium.ttf</string>
+		<string>IRANSans_UltraLight.ttf</string>
+		<string>IRANSans_Light.ttf</string>
+		<string>IRANSans_Bold.ttf</string>
+		<string>IRANSans_Black.ttf</string>
+		<string>IRANSans.ttf</string>
+	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
