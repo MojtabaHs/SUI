@@ -20,7 +20,7 @@ enum Style {
         
         static let primaryColor = SwiftUI.Color(red: 33/255, green: 207/255, blue: 116/255)
         
-        static let lightTextColor = SwiftUI.Color(white: 165/255)
+        static let lightTextColor = SwiftUI.Color(red: 165/255, green: 165/255, blue: 165/255)
         static let darkTextColor = SwiftUI.Color(red: 21/255, green: 31/255, blue: 50/255)
         static let greenTextColor = SwiftUI.Color(red: 4/255, green: 174/255, blue: 104/255)
         
