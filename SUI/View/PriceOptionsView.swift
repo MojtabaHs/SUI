@@ -16,6 +16,7 @@ import SwiftUI
 struct PriceOptionsView: View {
     
     let price: String
+    let minimumButtonsWitdh: CGFloat = 92
     
     var body: some View {
         HStack() {
@@ -26,6 +27,7 @@ struct PriceOptionsView: View {
                     .color(Style.Color.greenTextColor)
                 Spacer()
             }
+            .frame(minWidth: minimumButtonsWitdh)
             
             Divider()
                 .relativeHeight(0.75)
@@ -55,6 +57,7 @@ struct PriceOptionsView: View {
                     .color(Style.Color.greenTextColor)
                 Spacer()
             }
+                .frame(minWidth: minimumButtonsWitdh)
             
             }
             .frame(height: 64)
